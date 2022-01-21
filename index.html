@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        body { background: url(Fax/bg.jpg); }
+      </style>
+    <title>HopiFatOfficial</title>
+    <meta name="description" content="Relax place for everyone">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HopiFat, GeometryDash, GDPS ">
+    <link rel="stylesheet" href="tailwind.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+</div>
+<div id="block1">
+    <div class="flex-shrink-0">
+        <div class="flex flex-col justify-between p-16 pt-4 pb-4 bg-blue-900">
+    <div class="flex flex-col justify-center text-center m-8 mt-16 ml-8 mr-8 md:ml-16 md:mr-16">
+        </div>
+        <a href="news.html" class="button font-medium text-2xl ml p-6 pt-4 pb-4 m-4 max-w-sm text-white bg-blue-900 hover:bg-blue-900 active:bg-blue-700 rounded-full shadow-md">Sleeping</a>
+<div class="text-5xl mb-2 text-white light:text-white leading-relaxed">HopiFat<img src="Fax/mod.png" width="45" height="45"/> </p></div>
+
+
+
+
+
+
+<style type="text/css">
+    .button {
+        padding: 5px 20px;
+        margin: 30px;
+        cursor: pointer;  
+        border: 0px;
+        background-color: #3d78ee;
+        font-size: 30px;
+        color: #ffffff;
+        box-shadow: 0 0 5px #18378b;
+        -moz-box-shadow: 0 0 5px #18378b;
+        -ms-box-shadow: 0 0 5px #38378b;
+        -o-box-shadow: 0 0 5px #48378b;
+        -webkit-box-shadow: 0 0 5px #18378b;
+    }
+    .button:hover {
+        box-shadow: 0 0 30px #6633FF;
+        -moz-box-shadow: 0 0 12px #6633FF;
+        -o-box-shadow: 0 0 12px #6633FF;
+        -ms-box-shadow: 0 0 12px #6633FF;
+        -webkit-box-shadow: 0 0 12px #6633FF;
+    }
+    </style>
+
+
+
+<script>
+    const header = document.getElementById('header');
+    const headerMobile = document.getElementById('header-mobile');
+
+    const menu = document.getElementById('menu');
+
+    onResize();
+
+    window.addEventListener('resize', onResize);
+
+    function onResize() {
+        if (document.documentElement.offsetWidth <= 425) {
+            header.classList.remove('flex');
+            header.classList.add('hidden');
+
+            headerMobile.classList.add('flex');
+            headerMobile.classList.remove('hidden');
+        } else if (document.documentElement.offsetWidth > 425) {
+            header.classList.add('flex');
+            header.classList.remove('hidden');
+
+            headerMobile.classList.remove('flex');
+            headerMobile.classList.add('hidden');
+        }
+    }
+
+    document.getElementById('menu-button').addEventListener('click', () => {
+        menu.classList.toggle('flex');
+        menu.classList.toggle('hidden');
+    });
+
+    function switchTheme() {
+        document.documentElement.classList.toggle('dark');
+    }
+</script>
+</body>
+
+</html>
+    
